@@ -1,0 +1,269 @@
+
+.card{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    height: 600px;  
+}
+.left{
+   padding-top: 50px;
+   padding-bottom: 40px;
+    padding-left: 80px;
+}
+.left-img{
+    padding-top: 80px;
+    width: 300px;
+}
+.hr{
+    margin-left: 80px;
+    height: 600px;
+    border: 0.2px solid;
+    color: gray;
+}
+.right{
+    padding-left: 60px;
+    padding-top: 90px;
+}
+.label_geogle{
+    padding-bottom: 30px;
+    position: relative;
+}
+.labelThree{
+    width: 340px;
+}
+.pasword{
+    padding-top: 40px;
+}
+.labelpasword{
+    padding-top: 10px;
+    position: relative;
+}
+.sign-up-link{
+    text-decoration: none;
+    color: green;
+}
+.labelEmail{
+    position: relative;
+}
+.inGeogle{
+    width: 370px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #DEDDE4;
+    border-radius: 10px;
+}
+.p-text{
+    padding-left: 90px;
+
+}
+.user-input{
+    background: #FFFFFF;
+    border: 1px solid #DEDDE4;
+    border-radius: 10px;
+    padding: 10px 0 10px 40px;
+    width: 400px;
+}
+
+.inputPassword{
+    padding: 10px 0 10px 40px;
+    width: 400px;
+
+    height: 50px;
+    background: #fcfcff;
+    border: 1px solid #DEDDE4;
+    border-radius: 10px;
+}
+
+.login-btn{
+    margin-top: 40px;
+    padding: 14px;
+    width: 400px;
+    border-radius: 10px;
+    background: #9C4DF4;
+    color: white;
+}
+.fa-brands{
+    position: absolute;
+    left: 5px;
+    top:5px;
+    font-size: 39px;
+    color: rgb(181, 14, 14);
+    
+}
+.labelOne{
+    position: relative;
+}
+.labelThree{
+    position: relative;
+}
+.fa-lock{
+    position: absolute;
+    top:22px;
+    left: 20px;
+    color: #5D5A6F;;
+    font-size: 17px;
+}
+.fa-light{
+    position: absolute;
+    right: 20;
+}
+.fa-eye{
+    position: absolute;
+    right: 0;
+}
+.fa-solid{
+    position: absolute;
+    right: 10px;
+    top: 29px;
+}
+.bi{
+    position: absolute;
+    left: 6px;
+    top: 22px;
+}
+.labelTwo{
+    padding-top: 10px;
+    position: relative;
+}
+.bi-person{
+    position: absolute;
+    left: 6px;
+    top: 20px;
+}
+.p-textt{
+    padding-left: 6px;
+    padding-top: 12px;
+}
+.foterInput{
+    display: flex;
+    width: 400px;
+}
+.p-pass{
+    text-decoration: none;
+    padding-top: 12px;
+    padding-left: 122px;
+}
+@media screen and (max-width: 1200px){
+    .card{
+        width: 85%;
+    }
+    .left{
+        padding-left: 30px;
+    }
+    .left-img{
+        width: 300px;
+    }
+    .card{
+        display: flex;
+        height: auto;
+        
+    }
+    .right{
+        padding-left: 30px;
+    }
+    .hr{
+        margin-left: 30px;
+        height: 500px;
+        border: 0.5px solid;
+        color: gray;
+    }
+    .label_geogle{
+        position: relative;
+        width: 340px;
+    }
+    .labelThree{
+        width: 340px;
+    }
+    .labelpasword{
+        position: relative;
+        width: 340px;
+        
+    }
+    .sign-up-link{
+        text-decoration: none;
+        color: green;
+    }
+    .labelEmail{
+        position: relative;
+        width: 340px;
+        
+    }
+    .fa-eye{
+        display: none;
+    }
+    .inGeogle{
+        width: 370px;
+        height: 50px;
+        left: 801px;
+        top: 480px;
+        background: #FFFFFF;
+        border: 1px solid #DEDDE4;
+        border-radius: 10px;
+    }
+    .inputEmail{
+        width: 370px;
+        height: 50px;
+        left: 801px;
+        top: 480px;
+        background: #FFFFFF;
+        border: 1px solid #DEDDE4;
+        border-radius: 10px;
+    }
+    
+}
+@media screen and (max-width: 992px){
+    .card{
+        width: 700px;
+        margin: 0 auto;
+    }
+    .left-image{
+        width: 250px;
+    }
+    .left{
+        padding-left: 10px;
+    }
+    .inGeogle{
+        width: 300px;
+        height: 50px;
+        left: 801px;
+        top: 480px;
+        background: #FFFFFF;
+        border: 1px solid #DEDDE4;
+        border-radius: 10px;
+    }
+    .user-input{
+        width: 300px;
+    }
+    .hr{
+        margin-left: 70px;
+    }
+    .user-pasword{
+        width: 300px;
+    }
+    .fa-lock{
+        display: none;
+    }
+    .p-pass{
+        padding-left: 40px;
+    }
+    .login-btn{
+        width: 300px;
+    }
+}
+@media screen and (max-width: 375px){
+    .card{
+        width: 450px;
+        height: auto;
+    }
+    .left{
+        display: none;
+    }
+    .right{
+        margin: 0 auto;
+    }
+    .p-text{
+        padding-left: 40px;
+    }
+    
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./styles/registr.page.css">
+    <link rel="stylesheet" href="./styles/bootstrap.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="card  my-4 p-5 mx-auto bg-white shadow-lg ">
+                <div class="box d-flex">
+                    <div class="left ">
+                        <div class="left-logo">
+                            <img src="./images/left-logo.svg" alt="left-logo">
+                        </div>
+                        <div class="title pt-3">
+                            <b><h2 class="left_title ">Welcome to <br>  Eduvi Online <br>
+                                Learning Platform</h2></b>
+                            </div>
+                            <div class="left-image">
+                                <img class="left-img  pt-3" src="./images/left-img.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="hr"></div>
+                        <div  class="right">
+                            <form type="submit" class="form ">
+                                <label class="labelOne  ">
+                                    <i class="fa-brands fa-square-google-plus"></i>
+                                    <button class="inGeogle "><a class="sign-up-link" href="./login.html" id="geog-btn">Sign in with geogle</a></button>
+                                </label>
+                                <p class="p-text   ">-- or signin with your email --</p>
+                                
+                                <p class="fulname ">Full name</p>
+                                <label class="labelTwo width ">
+                                    <i class="bi bi-person"></i>
+                                    <input  class="inGeogle  width" type="text" placeholder="Esther Howard"  id="userName">       
+                                </label>
+                                
+                                <h5 class="emailText pt">Email</h5>
+                                <label for="labelEmail" class="labelThree">
+                                    <i class="bi bi-chat-square-dots"></i>
+                                    <input class="inputEmail  " type="text" placeholder="bill.sanders@example.com" id="userEmail">
+                                </label>
+                                
+                                <h5 class="pasword pt-3">Password </h5>
+                                <label for="labelpasword" class="labelpasword ">
+                                    <i class="fa-solid fa-lock"></i>
+                                    <input class="inputEmail " min="1" max="6" type="password" placeholder="........" id="userPasword">
+                                    <i id="swipe" class= " fa-solid fa-eye"></i>
+                                </label>
+
+                                <div class="foterInput ">
+                                    <div class="checbox">
+                                        <input type="checkbox" >
+                                    </div>
+                                    <p class="p-textt ">I agreed to the <b>Terms & Conditions</b></p>
+                          
+                                </div>
+                                <div class="butt">
+                                    <button type="submit" class="mt-2 button p-2 " id="btn-sign">Sign up</button>
+                                </div>         
+                            </form>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </body>
+    <script src="./scripts/utils.js"></script>
+    <script src="./scripts/registr.js"></script>
+    <!-- <script src="./main.js"></script> -->
+    </html>

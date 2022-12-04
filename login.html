@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="./styles/login.page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="./styles/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="card  ">
+                <div class="box d-flex">
+                    <div class="left ">
+                        <div class="left-logo">
+                            <img src="./images/left-logo.svg" alt="left-logo">
+                        </div>
+                        <div class="title pt-3">
+                            <b><h2 class="left_title ">Welcome to <br>  Eduvi Online <br>
+                                Learning Platform</h2></b>
+                            </div>
+                            <div class="left-image">
+                                <img class="left-img  pt-3" src="./images/left-img.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="hr"></div>
+                        <div class="right">
+
+                            <form type="submit" class="form" id="form-submit">
+
+                                <label class="label_geogle " for="inputGeogle" id="inputGeogle">
+                                    <i class="fa-brands fa-square-google-plus"></i>
+                                    <button class="inGeogle "><a style="text-decoration: none; color:blue;" href="#">Sign in with geogle</a></button>
+                                </label>
+
+
+                                <p class="p-text ">-- or signin with your email --</p>
+                                <h5 class="fulname ">Full name</h5>
+                                <label class="labelTwo   ">
+                                    <i class="bi bi-person"></i>
+                                    <input  class="user-input" type="text" placeholder="Esther Howard" >       
+                                </label>
+
+
+                                <h5 class="pasword ">Password </h5>
+                                <label for="labelpasword" class="labelpasword">
+                                    <i class="fa-solid fa-lock"></i>
+                                    <input class="user-pasword   inputPassword  " min="1" max="10" type="password" placeholder="******" id="inputPassword">
+                                    <i class="fa-solid fa-eye"></i>
+                                </label>
+
+                                
+                                <div class="butt">
+                                    <button type="button" class="login-btn ">Sign up</button>
+                                </div>
+                                <div class="foterInput">
+                                    <input type="checkbox" >
+                                    <p class="p-textt">keep me signed in</p>
+                                    <a href="./registr.html" class="p-pass">Forgot password?</a>
+                                </div>         
+                            </form>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </body>
+    <script src="./scripts/utils.js"></script>
+    <script src="./scripts/login.js"></script>
+    <!-- <script src="./main.js"></script> -->
+    </html>

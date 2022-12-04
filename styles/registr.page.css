@@ -1,0 +1,473 @@
+.card{
+    max-width: 100%;
+    width: 85%;
+}
+.left-img{
+    width: 300px;
+}
+.card{
+    display: flex;
+    height: auto;
+    
+}
+.hr{
+    margin-left: 30px;
+    height: 500px;
+    border: 0.5px solid;
+    color: gray;
+}
+.label_geogle{
+    position: relative;
+    width: 340px;
+}
+.labelThree{
+    width: 340px;
+}
+.labelpasword{
+    position: relative;
+    width: 340px;
+    
+}
+.form{
+    padding-left: 95px;
+}
+.sign-up-link{
+    text-decoration: none;
+    color: green;
+}
+.labelEmail{
+    position: relative;
+    width: 340px;
+    
+}
+.inGeogle{
+    padding: 5px 40px;
+    margin-bottom: 20px;
+    width: 370px;
+    height: 50px;
+    left: 801px;
+    top: 480px;
+    background: #FFFFFF;
+    border: 1px solid #DEDDE4;
+    border-radius: 10px;
+}
+.inputEmail{
+    padding: 5px 40px;
+    margin-bottom: 16px;
+    width: 370px;
+    height: 50px;
+    left: 801px;
+    top: 480px;
+    background: #FFFFFF;
+    border: 1px solid #DEDDE4;
+    border-radius: 10px;
+}
+
+.button{
+    width: 370px;
+    border-radius: 10px;
+    background: #9C4DF4;
+    color: white;
+}
+.fa-brands{
+    position: absolute;
+    left: 5px;
+    top:5px;
+    font-size: 39px;
+    color: rgb(181, 14, 14);
+    
+}
+.labelOne{
+    position: relative;
+}
+.labelThree{
+    position: relative;
+}
+.fa-lock{
+    position: absolute;
+    top:22px;
+    left: 20px;
+    color: #5D5A6F;;
+    font-size: 17px;
+}
+.fa-light{
+    position: absolute;
+    right: 0;
+}
+.fa-solid{
+    position: absolute;
+    right: 10px;
+    top: 16px;
+}
+.bi{
+    position: absolute;
+    left: 6px;
+    top: 16px;
+}
+.fa-eye{
+    position: absolute;
+}
+.labelTwo{
+    position: relative;
+}
+.bi-person{
+    position: absolute;
+    left: 6px;
+    top: 12px;
+}
+.p-text{
+    padding-left: 80px;
+}
+
+.p-textt{
+    padding-left: 20px;
+}
+.wrapper{
+    margin: 0 auto;
+}
+
+.foterInput{
+    padding-top: 20px;
+    padding-left: 10px;
+    display: flex;
+}
+@media only screen and (max-width: 1200px){
+    .card{
+        max-width: 100%;
+        width: 85%;
+    }
+    .left-img{
+        width: 300px;
+    }
+    .card{
+        display: flex;
+        height: auto;
+        
+    }
+    .hr{
+        margin-left: 30px;
+        height: 500px;
+        border: 0.5px solid;
+        color: gray;
+    }
+    .label_geogle{
+        position: relative;
+        width: 340px;
+    }
+    .labelThree{
+        width: 340px;
+    }
+    .labelpasword{
+        position: relative;
+        width: 340px;
+        
+    }
+    .form{
+        padding-left: 95px;
+    }
+    .sign-up-link{
+        text-decoration: none;
+        color: green;
+    }
+    .labelEmail{
+        position: relative;
+        width: 340px;
+        
+    }
+    .inGeogle{
+        padding: 5px 40px;
+        margin-bottom: 20px;
+        width: 220px;
+        height: 50px;
+        left: 801px;
+        top: 480px;
+        background: #FFFFFF;
+        border: 1px solid #DEDDE4;
+        border-radius: 10px;
+    }
+    .inputEmail{
+        padding: 5px 40px;
+        margin-bottom: 16px;
+        width: 220px;
+        height: 50px;
+        left: 801px;
+        top: 480px;
+        background: #FFFFFF;
+        border: 1px solid #DEDDE4;
+        border-radius: 10px;
+    }
+    
+    .button{
+        width: 220px;
+        border-radius: 10px;
+        background: #9C4DF4;
+        color: white;
+    }
+    .fa-brands{
+        position: absolute;
+        left: 5px;
+        top:5px;
+        font-size: 39px;
+        color: rgb(181, 14, 14);
+        
+    }
+    .labelOne{
+        position: relative;
+    }
+    .labelThree{
+        position: relative;
+    }
+    .fa-lock{
+        position: absolute;
+        top:22px;
+        left: 20px;
+        color: #5D5A6F;;
+        font-size: 17px;
+    }
+    .fa-light{
+        position: absolute;
+        right: 0;
+    }
+    .fa-solid{
+        position: absolute;
+        right: 10px;
+        top: 16px;
+    }
+    .bi{
+        position: absolute;
+        left: 6px;
+        top: 16px;
+    }
+    .labelTwo{
+        position: relative;
+    }
+    .bi-person{
+        position: absolute;
+        left: 6px;
+        top: 12px;
+    }
+    .p-text{
+        padding-left: 20px;
+    }
+    
+    .p-textt{
+        padding-left: 0px;
+    }
+    .wrapper{
+        margin: 0 auto;
+    }
+    
+    .foterInput{
+        padding-top: 20px;
+        padding-right: 90px;
+        display: flex;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .card{
+        max-width: 100%;
+        width: 85%;
+    }
+    .left-img{
+        width: 200px;
+    }
+    .card{
+        display: flex;
+        height: auto;
+        
+    }
+    .fa-eye{
+        display: none;
+    }
+    .hr{
+        margin-left: 30px;
+        height: 500px;
+        border: 0.5px solid;
+        color: gray;
+    }
+    .label_geogle{
+        position: relative;
+        width: 340px;
+    }
+    .labelThree{
+        width: 340px;
+    }
+    .labelpasword{
+        position: relative;
+        width: 340px;
+        
+    }
+    .form{
+        padding-left:5px;
+    }
+    .sign-up-link{
+        text-decoration: none;
+        color: green;
+    }
+    .labelEmail{
+        position: relative;
+        width: 340px;
+        
+    }
+    .inGeogle{
+        padding: 5px 40px;
+        margin-bottom: 20px;
+        width: 220px;
+        height: 50px;
+        left: 801px;
+        top: 480px;
+        background: #FFFFFF;
+        border: 1px solid #DEDDE4;
+        border-radius: 10px;
+    }
+    .inputEmail{
+        padding: 5px 40px;
+        margin-bottom: 16px;
+        width: 220px;
+        height: 50px;
+        left: 801px;
+        top: 480px;
+        background: #FFFFFF;
+        border: 1px solid #DEDDE4;
+        border-radius: 10px;
+    }
+    
+    .button{
+        width: 220px;
+        border-radius: 10px;
+        background: #9C4DF4;
+        color: white;
+    }
+    .fa-brands{
+        position: absolute;
+        left: 5px;
+        top:5px;
+        font-size: 39px;
+        color: rgb(181, 14, 14);
+        
+    }
+    .labelOne{
+        position: relative;
+    }
+    .labelThree{
+        position: relative;
+    }
+    .fa-lock{
+        position: absolute;
+        top:22px;
+        left: 20px;
+        color: #5D5A6F;;
+        font-size: 17px;
+    }
+    .fa-light{
+        position: absolute;
+        right: 0;
+    }
+    .fa-solid{
+        position: absolute;
+        right: 10px;
+        top: 16px;
+    }
+    .bi{
+        position: absolute;
+        left: 6px;
+        top: 16px;
+    }
+    .labelTwo{
+        position: relative;
+    }
+    .bi-person{
+        position: absolute;
+        left: 6px;
+        top: 12px;
+    }
+    .p-text{
+        padding-left: 20px;
+    }
+    
+    .p-textt{
+        padding-left: 0px;
+    }
+    .wrapper{
+        margin: 0 auto;
+    }
+    
+
+}
+@media only screen and (max-width: 768px){
+    .left-image{
+        display: none;
+    }
+    .title{
+        display: none;
+    }
+   .left-logo{
+    display: none;
+   } 
+   .hr{
+    display: none;
+   }
+   .right{
+    margin: 0 auto;
+   }
+   .inGeogle{
+    width: 300px;
+   }
+   .inputEmail{
+    width: 300px;
+   }
+   .p-text{
+    padding-left: 90px;
+   }
+   .button{
+    width: 300px;
+   }
+   .foterInput{
+    width: 400px;
+   }
+   .p-textt{
+    padding-left: 20px;
+   }
+
+}
+@media screen and (max-width: 440px){
+    .inGeogle{
+        width: 250px;
+    }
+    .inputEmail{
+        width: 250px;
+    }
+    .p-text{
+        padding-left: 25px;
+    }
+    .button{
+        width: 250px;
+    }
+    .foterInput{
+        padding-left: 0;
+    }
+    .p-textt{
+        padding-left: 0;
+    }
+}
+@media screen and (max-width: 375px){
+    .inGeogle{
+        width: 200px;
+    }
+    .inputEmail{
+        width: 200px;
+    }
+    .p-text{
+        padding-left: 15px;
+    }
+    .button{
+        width: 200px;
+    }
+    .foterInput{
+        padding-left: 0;
+    }
+    .p-textt{
+        display: none;
+        padding-left: 0;
+    }
+}
